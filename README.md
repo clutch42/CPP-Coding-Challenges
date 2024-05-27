@@ -6,3 +6,13 @@ Problem 578 - Determine whether there exists a one-to-one character mapping from
 Problem 579 - Starting from 0 on a number line, you would like to make a series of jumps that lead to the integer N.
   On the ith jump, you may move exactly i places to the left or right.
   Find a path with the fewest number of jumps required to get from 0 to N.
+
+Problem 580 - Given a binary tree, find a minimum path sum from root to a leaf.
+  10
+ /  \
+5    5
+ \     \
+   2    1
+       /
+     -1
+For example, the minimum path in this tree is [10, 5, 1, -1], which has sum 15.
