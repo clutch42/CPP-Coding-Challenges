@@ -8,13 +8,14 @@ Problem 579 - Starting from 0 on a number line, you would like to make a series 
   Find a path with the fewest number of jumps required to get from 0 to N.
 
 Problem 580 - Given a binary tree, find a minimum path sum from root to a leaf.
->  10
-> /  \
->5    5
-> \     \
->   2    1
->       /
->     -1
+```
+  10
+ /  \
+5    5
+ \     \
+   2    1
+       /
+     -1```
 For example, the minimum path in this tree is [10, 5, 1, -1], which has sum 15.
 
 Problem 583 - You are given a 2-d matrix where each cell represents number of coins in that cell. Assuming we start at matrix[0][0], and can only move right or down, find the maximum number of coins you can collect by the bottom right corner.
