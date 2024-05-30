@@ -22,6 +22,24 @@ Given a binary tree, find a minimum path sum from root to a leaf.
 ```
 For example, the minimum path in this tree is [10, 5, 1, -1], which has sum 15.
 
+## Problem 581
+Given two rectangles on a 2D graph, return the area of their intersection. If the rectangles don't intersect, return 0.
+For example, given the following rectangles:
+```
+{
+    "top_left": (1, 4),
+    "dimensions": (3, 3) # width, height
+}
+```
+and
+```
+{
+    "top_left": (0, 5),
+    "dimensions": (4, 3) # width, height
+}
+```
+return 6.
+
 ## Problem 582
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
 For example, given the intervals [(1, 4), (4, 5), (7, 9), (9, 12)], you should return [4, 9]
