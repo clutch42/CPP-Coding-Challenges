@@ -81,3 +81,15 @@ For example, suppose k = 1, and the list of tuples is:
  ('e', 1), ('e', 3), ('e': 5), ('e', 6)]
 ```
 Then a reasonable similarity metric would most likely conclude that a and e are the most similar, so your program should return [('a', 'e')].
+
+## Problem 587
+Given a binary tree, return all paths from the root to leaves.
+For example, given the tree:
+```
+   1
+  / \
+ 2   3
+    / \
+   4   5
+```
+Return [[1, 2], [1, 3, 4], [1, 3, 5]].
