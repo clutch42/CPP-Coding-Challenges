@@ -97,6 +97,6 @@ Return [[1, 2], [1, 3, 4], [1, 3, 5]].
 ## Problem 588
 You have a large array with most of the elements as zero.
 Use a more space-efficient data structure, SparseArray, that implements the same interface:
--init(arr, size): initialize with the original large array and size.
--set(i, val): updates index at i with val.
--get(i): gets the value at index i.
+- init(arr, size): initialize with the original large array and size.
+- set(i, val): updates index at i with val.
+- get(i): gets the value at index i.
