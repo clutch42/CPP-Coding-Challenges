@@ -117,3 +117,22 @@ For example, this algorithm terminates in three steps when starting from 1234:
 - 8532 - 2358 = 6174
 
 Write a function that returns how many steps this will take for a given input N.
+
+## Problem 596
+Invert a binary tree.
+For example, given the following tree:
+```
+    a
+   / \
+  b   c
+ / \  /
+d   e f
+```
+should become:
+```
+  a
+ / \
+ c  b
+ \  / \
+  f e  d
+```
