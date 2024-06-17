@@ -8,18 +8,12 @@ an array that is consistent with it. For example, given [None, +, +, -, +], you 
 
 using namespace std;
 
-void outputVec(const vector<string>& input) {
+template <typename T>
+void outputVec(const vector<T>& input) {
     for (size_t i = 0; i < input.size() - 1; i++) {
         cout << input.at(i) << ", ";
     }
     cout << input.at(input.size()-1) << endl;
-}
-
-void outputVec(const vector<int>& input) {
-    for (size_t i = 0; i < input.size() - 1; i++) {
-        cout << input.at(i) << ", ";
-    }
-    cout << input.at(input.size() - 1) << endl;
 }
 
 vector<int> findSequence(const vector<string>& input) {
