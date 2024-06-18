@@ -26,7 +26,7 @@ vector<int> findSequence(const vector<string>& input) {
         }
     }
     int nextPlus = numberOfMinus;
-    int nextMinus = 0;
+    int nextMinus = numberOfMinus-1;
     for (size_t i = 0; i < input.size(); i++) {
         if (input.at(i) != "-") {
             newSequence.at(i) = nextPlus;
@@ -34,7 +34,7 @@ vector<int> findSequence(const vector<string>& input) {
         }
         else {
             newSequence.at(i) = nextMinus;
-            nextMinus++;
+            nextMinus--;
         }
     }
     return newSequence;
