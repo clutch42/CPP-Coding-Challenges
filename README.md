@@ -181,3 +181,7 @@ an array that is consistent with it. For example, given [None, +, +, -, +], you 
 Suppose you are given two lists of n points, one list p1, p2, ..., pn on the line y = 0 
 and the other list q1, q2, ..., qn on the line y = 1. Imagine a set of n line segments connecting 
 each point pi to qi. Write an algorithm to determine how many pairs of the line segments intersect.
+
+## Problem 610
+Implement division of two positive integers without using the division, multiplication, 
+or modulus operators. Return the quotient as an integer, ignoring the remainder.
