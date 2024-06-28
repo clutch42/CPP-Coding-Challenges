@@ -182,6 +182,11 @@ Suppose you are given two lists of n points, one list p1, p2, ..., pn on the lin
 and the other list q1, q2, ..., qn on the line y = 1. Imagine a set of n line segments connecting 
 each point pi to qi. Write an algorithm to determine how many pairs of the line segments intersect.
 
+## Problem 608
+Given a start word, an end word, and a dictionary of valid words, find the shortest transformation sequence from start to end such that only one letter is changed at each step of the sequence, and each transformed word exists in the dictionary. If there is no possible transformation, return null. Each word in the dictionary have the same length as start and end and is lowercase.
+For example, given start = "dog", end = "cat", and dictionary = {"dot", "dop", "dat", "cat"}, return ["dog", "dot", "dat", "cat"].
+Given start = "dog", end = "cat", and dictionary = {"dot", "tod", "dat", "dar"}, return null as there is no possible transformation from dog to cat.
+
 ## Problem 609
 Given a node in a binary search tree, return the next bigger element, also known as the inorder successor.
 For example, the inorder successor of 22 is 30.
