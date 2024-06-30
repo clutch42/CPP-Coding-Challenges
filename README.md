@@ -219,6 +219,15 @@ minus: Decrement the value of a key. If the key's value is currently 1, remove i
 get_max: Return a key with the highest value.
 get_min: Return a key with the lowest value.
 
+## Problem 612
+Given a collection of intervals, find the minimum number of intervals you need to remove to make the rest of the intervals non-overlapping.
+
+Intervals can "touch", such as [0, 1] and [1, 2], but they won't be considered overlapping.
+
+For example, given the intervals (7, 9), (2, 4), (5, 8), return 1 as the last interval can be removed and the first two won't overlap.
+
+The intervals are not necessarily sorted in any order.
+
 ## Problem 613
 Implement a PrefixMapSum class with the following methods:
 
