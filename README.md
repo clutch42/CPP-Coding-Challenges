@@ -2,16 +2,21 @@
 <details>
 <summary>
   
-## Problem 578 - Strings</summary>
+## Problem 578 - Strings
+</summary>
 Determine whether there exists a one-to-one character mapping from one string s1 to another s2.
 For example, given s1 = abc and s2 = bcd, return true since we can map a to b, b to c, and c to d.
 Given s1 = foo and s2 = bar, return false since the o cannot map to two characters.
 </details>
-
+<details>
+<summary>
+  
 ## Problem 579
+</summary>
 Starting from 0 on a number line, you would like to make a series of jumps that lead to the integer N.
 On the ith jump, you may move exactly i places to the left or right.
 Find a path with the fewest number of jumps required to get from 0 to N.
+</details>
 
 ## Problem 580
 Given a binary tree, find a minimum path sum from root to a leaf.
