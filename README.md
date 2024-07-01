@@ -11,14 +11,17 @@ Given s1 = foo and s2 = bar, return false since the o cannot map to two characte
 <details>
 <summary>
   
-## Problem 579
+## Problem 579 - Pathfinding
 </summary>
 Starting from 0 on a number line, you would like to make a series of jumps that lead to the integer N.
 On the ith jump, you may move exactly i places to the left or right.
 Find a path with the fewest number of jumps required to get from 0 to N.
 </details>
-
-## Problem 580
+<details>
+<summary>
+  
+## Problem 580 - Pathfinding
+</summary>
 Given a binary tree, find a minimum path sum from root to a leaf.
 ```
   10
@@ -30,6 +33,7 @@ Given a binary tree, find a minimum path sum from root to a leaf.
      -1
 ```
 For example, the minimum path in this tree is [10, 5, 1, -1], which has sum 15.
+</details>
 
 ## Problem 581
 Given two rectangles on a 2D graph, return the area of their intersection. If the rectangles don't intersect, return 0.
