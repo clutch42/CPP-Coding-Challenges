@@ -36,8 +36,11 @@ Given a binary tree, find a minimum path sum from root to a leaf.
 
 For example, the minimum path in this tree is [10, 5, 1, -1], which has sum 15.
 </details>
-
-## Problem 581
+<details>
+<summary>
+  
+## Problem 581 - Intersection
+</summary>
 Given two rectangles on a 2D graph, return the area of their intersection. If the rectangles don't intersect, return 0.
 For example, given the following rectangles:
 ```
@@ -54,6 +57,7 @@ and
 }
 ```
 return 6.
+</details>
 
 ## Problem 582
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
