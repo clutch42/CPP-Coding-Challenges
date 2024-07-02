@@ -68,8 +68,11 @@ return 6.
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
 For example, given the intervals [(1, 4), (4, 5), (7, 9), (9, 12)], you should return [4, 9]
 </details>
-
+<details>
+<summary>
+  
 ## Problem 583
+</summary>
 You are given a 2-d matrix where each cell represents number of coins in that cell. Assuming we start at matrix[0][0], and can only move right or down, find the maximum number of coins you can collect by the bottom right corner.
 For example, in this matrix
 ```
@@ -78,6 +81,7 @@ For example, in this matrix
 1 5 3 1
 ```
 The most we can collect is 0 + 2 + 1 + 5 + 3 + 1 = 12 coins.
+</details>
 
 ## Problem 584
 Given a string with repeated characters, rearrange the string so that no two adjacent characters are the same. If this is not possible, return None.
