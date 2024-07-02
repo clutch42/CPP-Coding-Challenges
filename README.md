@@ -43,6 +43,7 @@ For example, the minimum path in this tree is [10, 5, 1, -1], which has sum 15.
 </summary>
 Given two rectangles on a 2D graph, return the area of their intersection. If the rectangles don't intersect, return 0.
 For example, given the following rectangles:
+
 ```
 {
     "top_left": (1, 4),
@@ -56,6 +57,7 @@ and
     "dimensions": (4, 3) # width, height
 }
 ```
+
 return 6.
 </details>
 
