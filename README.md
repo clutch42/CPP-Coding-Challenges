@@ -207,6 +207,17 @@ Suppose you are given two lists of n points, one list p1, p2, ..., pn on the lin
 and the other list q1, q2, ..., qn on the line y = 1. Imagine a set of n line segments connecting 
 each point pi to qi. Write an algorithm to determine how many pairs of the line segments intersect.
 
+<details>
+<summary>
+
+## Problem 605 - H-Index
+</summary>
+In academia, the h-index is a metric used to calculate the impact of a researcher's papers. It is calculated as follows:
+A researcher has index h if at least h of her N papers have h citations each. If there are multiple h satisfying this formula, the maximum is chosen.
+For example, suppose N = 5, and the respective citations of each paper are [4, 3, 0, 1, 5]. Then the h-index would be 3, since the researcher has 3 papers with at least 3 citations.
+Given a list of paper citations of a researcher, calculate their h-index.
+</details>
+
 ## Problem 607
 There are M people sitting in a row of N seats, where M < N. Your task is to redistribute people such that there are no gaps between any of them, while keeping overall movement to a minimum.
 
@@ -307,14 +318,4 @@ gal_preferences = {
 }
 ```
 Write an algorithm that pairs the men and women together in such a way that no two people of opposite sex would both rather be with each other than with their current partners.
-</details>
-<details>
-<summary>
-
-## Problem 605 - H-Index
-</summary>
-In academia, the h-index is a metric used to calculate the impact of a researcher's papers. It is calculated as follows:
-A researcher has index h if at least h of her N papers have h citations each. If there are multiple h satisfying this formula, the maximum is chosen.
-For example, suppose N = 5, and the respective citations of each paper are [4, 3, 0, 1, 5]. Then the h-index would be 3, since the researcher has 3 papers with at least 3 citations.
-Given a list of paper citations of a researcher, calculate their h-index.
 </details>
