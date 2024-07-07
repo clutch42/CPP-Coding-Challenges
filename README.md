@@ -113,7 +113,7 @@ Return 4.
 <details>
 <summary>
   
-## Problem 586
+## Problem 586 - Similarity
 </summary>
 You are given a list of (website, user) pairs that represent users visiting websites. Come up with a program that identifies the top k pairs of websites with the greatest similarity.
 For example, suppose k = 1, and the list of tuples is:
