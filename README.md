@@ -396,6 +396,13 @@ For the input XIV, for instance, you should return 14.
 <details>
 <summary>
 
+## Problem 618 - Sort
+</summary>
+Given a list, sort it using this method: reverse(lst, i, j), which reverses lst from i to j.
+</details>
+<details>
+<summary>
+
 ## Problem 619 - Pathfinding
 </summary>
 Given a 2D board of characters and a word, find if the word exists in the grid.
