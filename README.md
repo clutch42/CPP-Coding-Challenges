@@ -347,7 +347,7 @@ Write an algorithm that pairs the men and women together in such a way that no t
 <details>
 <summary>
 
-## Problem 617 - Cryptarithmetic Puzzle
+## Problem 616 - Cryptarithmetic Puzzle
 </summary>
 A cryptarithmetic puzzle is a mathematical game where the digits of some numbers are represented by letters. Each letter represents a unique digit.
 
