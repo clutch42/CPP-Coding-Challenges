@@ -84,22 +84,32 @@ For example, in this matrix
 
 The most we can collect is 0 + 2 + 1 + 5 + 3 + 1 = 12 coins.
 </details>
-
+<details>
+<summary>
+  
 ## Problem 584
+</summary>
 Given a string with repeated characters, rearrange the string so that no two adjacent characters are the same. If this is not possible, return None.
 For example, given "aaabbc", you could return "ababac". Given "aaab", return None.
-
+</details>
+<details>
+<summary>
+  
 ## Problem 585
+</summary>
 Given an N by M matrix consisting only of 1's and 0's, find the largest rectangle containing only 1's and return its area.
 
 For example, given the following matrix:
+
 ```
 [[1, 0, 0, 0],
  [1, 0, 1, 1],
  [1, 0, 1, 1],
  [0, 1, 0, 0]]
 ```
+
 Return 4.
+</details>
 
 ## Problem 586
 You are given a list of (website, user) pairs that represent users visiting websites. Come up with a program that identifies the top k pairs of websites with the greatest similarity.
