@@ -87,7 +87,7 @@ The most we can collect is 0 + 2 + 1 + 5 + 3 + 1 = 12 coins.
 <details>
 <summary>
   
-## Problem 584
+## Problem 584 - Strings
 </summary>
 Given a string with repeated characters, rearrange the string so that no two adjacent characters are the same. If this is not possible, return None.
 For example, given "aaabbc", you could return "ababac". Given "aaab", return None.
@@ -95,7 +95,7 @@ For example, given "aaabbc", you could return "ababac". Given "aaab", return Non
 <details>
 <summary>
   
-## Problem 585
+## Problem 585 - Area
 </summary>
 Given an N by M matrix consisting only of 1's and 0's, find the largest rectangle containing only 1's and return its area.
 
