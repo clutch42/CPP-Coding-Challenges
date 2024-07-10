@@ -452,7 +452,7 @@ Given an input consisting of brick lengths for each row such as the one above, r
 <details>
 <summary>
 
-## Problem 620 - Least Crossing Lines
+## Problem 622 - Deepest Node
 </summary>
 Given the root of a binary tree, return a deepest node. For example, in the following tree, return d.
 
