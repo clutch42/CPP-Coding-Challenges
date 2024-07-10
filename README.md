@@ -449,3 +449,18 @@ The best we can we do here is to draw a line after the eighth brick, which will 
 
 Given an input consisting of brick lengths for each row such as the one above, return the fewest number of bricks that must be cut to create a vertical line.
 </details>
+<details>
+<summary>
+
+## Problem 620 - Least Crossing Lines
+</summary>
+Given the root of a binary tree, return a deepest node. For example, in the following tree, return d.
+
+```
+    a
+   / \
+  b   c
+ /
+d
+```
+</details>
