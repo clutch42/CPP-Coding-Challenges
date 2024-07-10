@@ -481,7 +481,7 @@ d
 <details>
 <summary>
   
-## Problem 623 - Justify String
+## Problem 623 - String Manipulation
 </summary>
 Write an algorithm to justify text. Given a sequence of words and an integer line length k, return a list of strings which represents each line, fully justified.
 
@@ -498,4 +498,13 @@ For example, given the list of words ["the", "quick", "brown", "fox", "jumps", "
 "fox  jumps  over", # 2 extra spaces distributed evenly
 "the   lazy   dog"] # 4 extra spaces distributed evenly
 ```
+</details>
+<details>
+<summary>
+  
+## Problem 624 - String Manipulation
+</summary>
+Given a string of parentheses, write a function to compute the minimum number of parentheses to be removed to make the string valid (i.e. each open parenthesis is eventually closed).
+
+For example, given the string "()())()", you should return 1. Given the string ")(", you should return 2, since we must remove all of them.
 </details>
