@@ -167,17 +167,25 @@ The first game: roll a die repeatedly. Stop rolling once you get a five followed
 The second game: same, except that the stopping condition is a five followed by a five.
 Which of the two games should Alice elect to play? Does it even matter? Write a program to simulate the two games and calculate their expected value.
 </details>
-
-## Problem 590
+<details>
+<summary>
+  
+## Problem 590 - XOR Linked List
+</summary>
 An XOR linked list is a more memory efficient doubly linked list. Instead of each node holding next and prev fields,
 it holds a field named both, which is an XOR of the next node and the previous node. Implement an XOR linked list; it has
 an add(element) which adds the element to the end, and a get(index) which returns the node at index.
 If using a language that has no pointers (such as Python), you can assume you have access to get_pointer and
 dereference_pointer functions that converts between nodes and memory addresses.
+</details>
+<details>
+<summary>
 
-## Problem 592
+## Problem 592 - Matrix Islands
+</summary>
 Given a matrix of 1s and 0s, return the number of "islands" in the matrix. A 1 represents land and 0 represents water, so an island is a group of 1s that are neighboring whose perimeter is surrounded by water.
 For example, this matrix has 4 islands.
+
 ```
 1 0 0 0 0
 0 0 1 1 0
@@ -186,6 +194,7 @@ For example, this matrix has 4 islands.
 1 1 0 0 1
 1 1 0 0 1
 ```
+</details>
 
 ## Problem 593
 You are given an array representing the heights of neighboring buildings on a city street, from east to west. The city assessor would like you to write an algorithm that returns how many of these buildings have a view of the setting sun, in order to properly value the street.
