@@ -530,3 +530,12 @@ Given a string of parentheses, write a function to compute the minimum number of
 
 For example, given the string "()())()", you should return 1. Given the string ")(", you should return 2, since we must remove all of them.
 </details>
+<details>
+<summary>
+  
+## Problem 625 - Binary Conversion
+</summary>
+Given an integer n, return the length of the longest consecutive run of 1s in its binary representation.
+
+For example, given 156, you should return 3.
+</details>
