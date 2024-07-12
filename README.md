@@ -548,3 +548,14 @@ Given an integer n, return the length of the longest consecutive run of 1s in it
 
 For example, given 156, you should return 3.
 </details>
+<details>
+<summary>
+  
+## Problem 626 - Max Product
+</summary>
+Given a list of integers, return the largest product that can be made by multiplying any three integers.
+
+For example, if the list is [-10, -10, 5, 2], we should return 500, since that's -10 * -10 * 5.
+
+You can assume the list has at least three integers.
+</details>
