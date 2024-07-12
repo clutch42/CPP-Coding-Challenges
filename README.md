@@ -195,14 +195,21 @@ For example, this matrix has 4 islands.
 1 1 0 0 1
 ```
 </details>
+<details>
+<summary>
 
-## Problem 593
+## Problem 593 - Arrays Height
+</summary>
 You are given an array representing the heights of neighboring buildings on a city street, from east to west. The city assessor would like you to write an algorithm that returns how many of these buildings have a view of the setting sun, in order to properly value the street.
 For example, given the array [3, 7, 8, 3, 6, 1], you should return 3, since the top floors of the buildings with heights 8, 6, and 1 all have an unobstructed view to the west.
 Can you do this using just one forward pass through the array?
-
-## Problem 595
-The number 6174 is known as Kaprekar's contant, after the mathematician who discovered an associated property: for all four-digit numbers with at least two distinct digits, repeatedly applying a simple procedure eventually results in this value. The procedure is as follows:
+</details>
+<details>
+<summary>
+  
+## Problem 595 - Kaprekar's Constant
+</summary>
+The number 6174 is known as Kaprekar's constant, after the mathematician who discovered an associated property: for all four-digit numbers with at least two distinct digits, repeatedly applying a simple procedure eventually results in this value. The procedure is as follows:
 - For a given input x, create two new numbers that consist of the digits in x in ascending and descending order.
 - Subtract the smaller number from the larger number.
 
@@ -210,6 +217,7 @@ For example, this algorithm terminates in three steps when starting from 1234:
 - 4321 - 1234 = 3087
 - 8730 - 0378 = 8352
 - 8532 - 2358 = 6174
+</details>
 
 Write a function that returns how many steps this will take for a given input N.
 
