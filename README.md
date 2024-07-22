@@ -220,8 +220,11 @@ For example, this algorithm terminates in three steps when starting from 1234:
 
 Write a function that returns how many steps this will take for a given input N.
 </details>
-
-## Problem 596
+<details>
+<summary>
+  
+## Problem 596 - Invert binary tree
+</summary>
 Invert a binary tree.
 For example, given the following tree:
 ```
@@ -239,9 +242,15 @@ should become:
  \  / \
   f e  d
 ```
-## Problem 597
+</details>
+<details>
+<summary>
+  
+## Problem 597 - Pythagorean Triplet
+</summary>
 Given an array of integers, determine whether it contains a Pythagorean triplet. 
 Recall that a Pythogorean triplet (a, b, c) is defined by the equation a2+ b2= c2.
+</details>
 
 ## Problem 598
 You have n fair coins and you flip them all at the same time. Any that come up tails you set aside. The ones that come up heads you flip again. How many rounds do you expect to play before only one coin remains?
