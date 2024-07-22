@@ -255,13 +255,21 @@ should become:
 Given an array of integers, determine whether it contains a Pythagorean triplet. 
 Recall that a Pythogorean triplet (a, b, c) is defined by the equation a2+ b2= c2.
 </details>
-
-## Problem 598
+<details>
+<summary>
+  
+## Problem 598 - Coin Probability
+</summary>
 You have n fair coins and you flip them all at the same time. Any that come up tails you set aside. The ones that come up heads you flip again. How many rounds do you expect to play before only one coin remains?
 Write a function that, given n, returns the number of rounds you'd expect to play until one coin remains.
-
-## Problem 600
+</details>
+<details>
+<summary>
+  
+## Problem 600 - Closest Points
+</summary>
 Given a set of points (x, y) on a 2D cartesian plane, find the two closest points. For example, given the points [(1, 1), (-1, -1), (3, 4), (6, 1), (-1, -6), (-4, -3)], return [(-1, -1), (1, 1)].
+</details>
 
 ## Problem 601
 The sequence [0, 1, ..., N] has been jumbled, and the only clue you have for its order is an array 
