@@ -630,3 +630,12 @@ For example, suppose the input consists of the buildings [(0, 15, 3), (4, 11, 5)
 
 As a result, your function should return [(0, 3), (4, 5), (11, 3), (15, 0), (19, 4), (23, 0)].
 </details>
+<details>
+<summary>
+  
+## Problem 636 - Array Pivot
+</summary>
+Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand. Find the minimum element in O(log N) time. You may assume the array does not contain duplicates.
+
+For example, given [5, 7, 10, 3, 4], return 3.
+</details>
