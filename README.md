@@ -227,6 +227,7 @@ Write a function that returns how many steps this will take for a given input N.
 </summary>
 Invert a binary tree.
 For example, given the following tree:
+
 ```
     a
    / \
@@ -234,7 +235,9 @@ For example, given the following tree:
  / \  /
 d   e f
 ```
+
 should become:
+
 ```
   a
  / \
@@ -242,6 +245,7 @@ should become:
  \  / \
   f e  d
 ```
+
 </details>
 <details>
 <summary>
