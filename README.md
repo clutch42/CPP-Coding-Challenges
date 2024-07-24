@@ -270,16 +270,24 @@ Write a function that, given n, returns the number of rounds you'd expect to pla
 </summary>
 Given a set of points (x, y) on a 2D cartesian plane, find the two closest points. For example, given the points [(1, 1), (-1, -1), (3, 4), (6, 1), (-1, -6), (-4, -3)], return [(-1, -1), (1, 1)].
 </details>
-
-## Problem 601
+<details>
+<summary>
+  
+## Problem 601 - Sequence
+</summary>
 The sequence [0, 1, ..., N] has been jumbled, and the only clue you have for its order is an array 
 representing whether each number is larger or smaller than the last. Given this information, reconstruct 
 an array that is consistent with it. For example, given [None, +, +, -, +], you could return [1, 2, 3, 0, 4].
-
-## Problem 602
+</details>
+<details>
+<summary>
+  
+## Problem 602 - Line Intersections
+</summary>
 Suppose you are given two lists of n points, one list p1, p2, ..., pn on the line y = 0 
 and the other list q1, q2, ..., qn on the line y = 1. Imagine a set of n line segments connecting 
 each point pi to qi. Write an algorithm to determine how many pairs of the line segments intersect.
+</details>
 <details>
 <summary>
   
