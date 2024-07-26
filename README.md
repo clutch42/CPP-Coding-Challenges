@@ -666,7 +666,7 @@ As a result, your function should return [(0, 3), (4, 5), (11, 3), (15, 0), (19,
 <details>
 <summary>
   
-## Problem 634 - Array Pivot
+## Problem 634 - Histogram Rectangles
 </summary>
 You are given a histogram consisting of rectangles of different heights. These heights are represented in an input list, such that [1, 3, 2, 5] corresponds to the following diagram:
 
