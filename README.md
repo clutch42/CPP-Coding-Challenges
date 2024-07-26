@@ -381,27 +381,39 @@ You can assume each node has a parent pointer.
 Implement division of two positive integers without using the division, multiplication, 
 or modulus operators. Return the quotient as an integer, ignoring the remainder.
 </details>
-
+<details>
+<summary>
+  
 ## Problem 611
+</summary>
 Create a data structure that performs all the following operations in O(1) time:
 
 plus: Add a key with value 1. If the key already exists, increment its value by one.
 minus: Decrement the value of a key. If the key's value is currently 1, remove it.
 get_max: Return a key with the highest value.
 get_min: Return a key with the lowest value.
-
+</details>
+<details>
+<summary>
+  
 ## Problem 612
+</summary>
 Given a collection of intervals, find the minimum number of intervals you need to remove to make the rest of the intervals non-overlapping.
 Intervals can "touch", such as [0, 1] and [1, 2], but they won't be considered overlapping.
 For example, given the intervals (7, 9), (2, 4), (5, 8), return 1 as the last interval can be removed and the first two won't overlap.
 The intervals are not necessarily sorted in any order.
-
+</details>
+<details>
+<summary>
+  
 ## Problem 613
+</summary>
 Implement a PrefixMapSum class with the following methods:
 
 insert(key: str, value: int): Set a given key's value in the map. If the key already exists, overwrite the value.
 sum(prefix: str): Return the sum of all values of keys that begin with a given prefix.
 For example, you should be able to run the following code:
+
 ```
 mapsum.insert("columnar", 3)
 assert mapsum.sum("col") == 3
@@ -410,13 +422,19 @@ mapsum.insert("column", 2)
 assert mapsum.sum("col") == 5
 ```
 
+</details>
+<details>
+<summary>
+  
 ## Problem 614
+</summary>
 A network consists of nodes labeled 0 to N. You are given a list of edges (a, b, t), describing the time t 
 it takes for a message to be sent from node a to node b. Whenever a node receives a message, it immediately 
 passes the message on to a neighboring node, if possible.
 Assuming all nodes are connected, determine how long it will take for every node to receive a message that begins at node 0.
 
 For example, given N = 5, and the following edges:
+
 ```
 edges = [
     (0, 1, 5),
@@ -428,7 +446,9 @@ edges = [
     (3, 4, 5)
 ]
 ```
+
 You should return 9, because propagating the message from 0 -> 2 -> 3 -> 4 will take that much time.
+</details>
 <details>
 <summary>
   
