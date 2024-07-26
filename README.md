@@ -355,10 +355,14 @@ Given a start word, an end word, and a dictionary of valid words, find the short
 For example, given start = "dog", end = "cat", and dictionary = {"dot", "dop", "dat", "cat"}, return ["dog", "dot", "dat", "cat"].
 Given start = "dog", end = "cat", and dictionary = {"dot", "tod", "dat", "dar"}, return null as there is no possible transformation from dog to cat.
 </details>
-
-## Problem 609
+<details>
+<summary>
+  
+## Problem 609 - Binary Search Tree
+</summary>
 Given a node in a binary search tree, return the next bigger element, also known as the inorder successor.
 For example, the inorder successor of 22 is 30.
+
 ```
    10
   /  \
@@ -366,12 +370,17 @@ For example, the inorder successor of 22 is 30.
      /  \
    22    35
 ```
-You can assume each node has a parent pointer.
 
-## Problem 610
+You can assume each node has a parent pointer.
+</details>
+<details>
+<summary>
+  
+## Problem 610 - Integer Division
+</summary>
 Implement division of two positive integers without using the division, multiplication, 
 or modulus operators. Return the quotient as an integer, ignoring the remainder.
-
+</details>
 
 ## Problem 611
 Create a data structure that performs all the following operations in O(1) time:
