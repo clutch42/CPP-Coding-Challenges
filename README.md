@@ -335,18 +335,26 @@ A knight's tour is a sequence of moves by a knight on a chessboard such that all
 
 Given N, write a function to return the number of knight's tours on an N by N chessboard.
 </details>
+<details>
+<summary>
 
-## Problem 607
+## Problem 607 - Redistribute Gaps
+</summary>
 There are M people sitting in a row of N seats, where M < N. Your task is to redistribute people such that there are no gaps between any of them, while keeping overall movement to a minimum.
 
 For example, suppose you are faced with an input of [0, 1, 1, 0, 1, 0, 0, 0, 1], where 0 represents an empty seat and 1 represents a person. In this case, one solution would be to place the person on the right in the fourth seat. We can consider the cost of a solution to be the sum of the absolute distance each person must move, so that the cost here would be five.
 
 Given an input such as the one above, return the lowest possible cost of moving people to remove all gaps.
-
-## Problem 608
+</details>
+<details>
+<summary>
+  
+## Problem 608 - Word Transformation
+</summary>
 Given a start word, an end word, and a dictionary of valid words, find the shortest transformation sequence from start to end such that only one letter is changed at each step of the sequence, and each transformed word exists in the dictionary. If there is no possible transformation, return null. Each word in the dictionary have the same length as start and end and is lowercase.
 For example, given start = "dog", end = "cat", and dictionary = {"dot", "dop", "dat", "cat"}, return ["dog", "dot", "dat", "cat"].
 Given start = "dog", end = "cat", and dictionary = {"dot", "tod", "dat", "dar"}, return null as there is no possible transformation from dog to cat.
+</details>
 
 ## Problem 609
 Given a node in a binary search tree, return the next bigger element, also known as the inorder successor.
