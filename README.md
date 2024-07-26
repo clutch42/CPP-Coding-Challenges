@@ -384,7 +384,7 @@ or modulus operators. Return the quotient as an integer, ignoring the remainder.
 <details>
 <summary>
   
-## Problem 611
+## Problem 611 - Data Structure
 </summary>
 Create a data structure that performs all the following operations in O(1) time:
 
@@ -396,7 +396,7 @@ get_min: Return a key with the lowest value.
 <details>
 <summary>
   
-## Problem 612
+## Problem 612 - Minimum Intervals
 </summary>
 Given a collection of intervals, find the minimum number of intervals you need to remove to make the rest of the intervals non-overlapping.
 Intervals can "touch", such as [0, 1] and [1, 2], but they won't be considered overlapping.
@@ -406,7 +406,7 @@ The intervals are not necessarily sorted in any order.
 <details>
 <summary>
   
-## Problem 613
+## Problem 613 - Class
 </summary>
 Implement a PrefixMapSum class with the following methods:
 
@@ -426,7 +426,7 @@ assert mapsum.sum("col") == 5
 <details>
 <summary>
   
-## Problem 614
+## Problem 614 - Node Messages
 </summary>
 A network consists of nodes labeled 0 to N. You are given a list of edges (a, b, t), describing the time t 
 it takes for a message to be sent from node a to node b. Whenever a node receives a message, it immediately 
