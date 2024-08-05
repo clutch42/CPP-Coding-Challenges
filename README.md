@@ -738,3 +738,19 @@ Given a mapping of digits to letters (as in a phone number), and a digit string,
 
 For example if {“2”: [“a”, “b”, “c”], 3: [“d”, “e”, “f”], …} then “23” should return [“ad”, “ae”, “af”, “bd”, “be”, “bf”, “cd”, “ce”, “cf"].
 </details>
+<details>
+<summary>
+  
+## Problem 648 - Deep Copy Linked List
+</summary>
+Given the head to a singly linked list, where each node also has a “random” pointer that points to anywhere in the linked list, deep clone the list.
+</details>
+<details>
+<summary>
+  
+## Problem 649 - First Consecutive Chars
+</summary>
+Given a string, return the first recurring character in it, or null if there is no recurring character.
+
+For example, given the string "acbbac", return "b". Given the string "abcdef", return null.
+</details>
