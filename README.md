@@ -748,7 +748,7 @@ Given the head to a singly linked list, where each node also has a “random” 
 <details>
 <summary>
   
-## Problem 649 - First Consecutive Chars
+## Problem 649 - First Recurring Character
 </summary>
 Given a string, return the first recurring character in it, or null if there is no recurring character.
 
